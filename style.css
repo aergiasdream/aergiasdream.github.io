@@ -1,3 +1,7 @@
+* {
+  max-height: 98vh;
+}
+
 body {
   font-family: 'CozetteVector', 'Space Mono', 'Roboto', sans-serif;
   font-size: 12px;
