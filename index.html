@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>Startpage</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="favicon.svg">
+    <script type="text/javascript" src="main.js"></script>
+  </head>
+  <body>
+    <div id="overlay-container" class="hidden">
+      <div id="second-pane">
+      </div>
+      <div id="third-pane">
+      </div>
+    </div>
+    <div class="container">
+      <div class="date-container">
+	<div class="row">
+	  <div id="clock"></div>
+	  <div id="calendar"></div>
+	</div>
+      </div>
+      <div id="search">
+	<input id="search-field" type="text" name="search-field" placeholder="Search DuckDuckGo..." onkeypress="search(event)"/>
+      </div>
+      <div class="bookmark-container">
+	<div class="bookmark-section">
+	  <div class="bookmark-title">Frequent</div>
+	  <div class="bookmark-list-container">
+	    <a href="https://youtube.com" target="_blank" rel="noopener">YouTube</a>
+	    <a href="https://imgur.com" target="_blank" rel="noopener">imgur</a>
+	    <a href="https://x0.no" target="_blank" rel="noopener">x0.no</a>
+	    <a href="https://plaza.one" target="_blank" rel="noopener">plaza.one</a>
+	    <a href="https://fantasy.espn.com/hockey/team?leagueId=89653902&teamId=4&seasonId=2020" target="_blank" rel="noopener">Fantasy Hockey</a>
+	  </div>
+	</div>
+	<div class="bookmark-section">
+	  <div class="bookmark-title">Development</div>
+	  <div class="bookmark-list-container">
+	    <a href="https://devhints.io/bash" target="_blank" rel="noopener">Bash Cheatsheet</a>
+	    <a href="https://google.github.io/styleguide/shell.xml" target="_blank" rel="noopener">Shell Style Guide</a>
+	    <a href="https://www.pexels.com" target="_blank" rel="noopener">Pexels</a>
+	    <a href="https://kaggle.com" target="_blank" rel="noopener">Kaggle</a>
+	    <a href="https://terminal.sexy" target="_blank" rel="noopener">terminal.sexy</a>
+	  </div>
+	</div>
+	<div class="bookmark-section">
+	  <div class="bookmark-title">Reddit</div>
+	  <div class="bookmark-list-container">
+	    <a href="https://reddit.com/r/unixporn" target="_blank" rel="noopener">Unixporn</a>
+	    <a href="https://reddit.com/r/unixprotips" target="_blank" rel="noopener">Unix Pro-tips</a>
+	    <a href="https://reddit.com/r/freefolk" target="_blank" rel="noopener">Freefolk</a>
+	    <a href="https://reddit.com/r/nhlstreams" target="_blank" rel="noopener">NHL Streams</a>
+	  </div>
+	</div>
+	<div class="bookmark-section">
+	  <div class="bookmark-title">Games</div>
+	  <div class="bookmark-list-container">
+	    <a href="https://minecraft.gamepedia.com/Minecraft_Wiki" target="_blank" rel="noopener">Minecraft Wiki</a>
+	    <a href="https://starbounder.org/Starbound_Wiki" target="_blank" rel="noopener">Starbound Wiki</a>
+	    <a href="https://dontstarve.gamepedia.com/Don't_Starve_Wiki" target="_blank" rel="noopener">Don't Starve Wiki</a>
+	    <a href="https://terraria.gamepedia.com/Terraria_Wiki" target="_blank" rel="noopener">Terraria Wiki</a>
+	  </div>
+
+	</div>
+      </div>
+      <span id="tip">Press backspace to open overlay</span>
+    </div>
+  </body>
+</html>
